@@ -1,0 +1,4 @@
+TODO/
+*.pyc
+engine/*.pyc
+plugin/*.pyc
