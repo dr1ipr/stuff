@@ -1,0 +1,65 @@
+~~~~~~~~~~~~~~~~
+version 0.8
+~~~~~~~~~~~~~~~~
+
+* fix tornado asyncio issues for python3 and tornado 5.0+
+
+~~~~~~~~~~~~~~~~
+version 0.7
+~~~~~~~~~~~~~~~~
+
+* added a full interactive shell management system for TrevorC2
+
+~~~~~~~~~~~~~~~~
+version 0.6
+~~~~~~~~~~~~~~~~
+
+* adds full session management for multiple TrevorC2 clients
+
+~~~~~~~~~~~~~~~~
+version 0.5
+~~~~~~~~~~~~~~~~
+
+* moved trevorc2_client.py to python 2 and 3 compatible
+* added error handling if server address was in use in trevorc2_server
+
+~~~~~~~~~~~~~~~~
+version 0.4
+~~~~~~~~~~~~~~~~
+
+* add PowerShell client thanks to Alex Williams (@offsec_ginger)
+
+~~~~~~~~~~~~~~~~
+version 0.3.2
+~~~~~~~~~~~~~~~~
+
+* change padding to 16 bit to be compatible with PowerShell native. New PS client coming soon.
+
+~~~~~~~~~~~~~~~~
+version 0.3.1
+~~~~~~~~~~~~~~~~
+
+* add root check for trevorc2
+
+~~~~~~~~~~~~~~~~
+version 0.3
+~~~~~~~~~~~~~~~~
+
+* uppercase variable names through client
+* add root path query which allows you to change the file/location where the code is contained within trevorc2
+* add full support for Python2/3 AES support for encrypted transfer of data
+* fix control-c from exiting properly, kill process
+* couple minor fixes for python3 compatibility
+* update requirements.txt for pycrypto
+
+~~~~~~~~~~~~~~~~
+version 0.2
+~~~~~~~~~~~~~~~~
+
+* added SSL, python v2/3 compatibility, and multi-shell support (thanks to the awesome PR from Nicholas Albright @nma_io).
+
+~~~~~~~~~~~~~~~~
+version 0.1a
+~~~~~~~~~~~~~~~~
+
+* initial release of TrevorC2
